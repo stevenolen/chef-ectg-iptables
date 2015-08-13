@@ -1,4 +1,4 @@
 # elasticsearch
 -A INPUT -p tcp -s <%= @from_ip %> --dport <%= @port %> -j ACCEPT
--A INPUT -p tcp -s localhost --port <%= @port %> -j ACCEPT
+-A INPUT -p tcp -s localhost --dport <%= @port %> -j ACCEPT
 -A INPUT -p tcp -m tcp --dport <%= @port %> -j REJECT
