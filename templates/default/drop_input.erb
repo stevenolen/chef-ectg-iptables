@@ -1,0 +1,4 @@
+# DROP UNCAUGHT PACKETS
+-I INPUT 1 -i lo -j ACCEPT
+-A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
+--policy INPUT DROP
