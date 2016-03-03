@@ -1,10 +1,10 @@
 #
-# Cookbook Name:: ectg-iptables
+# Cookbook Name:: mwser-iptables
 # Recipe:: http_https
 #
 # Copyright (C) 2015 UC Regents
 #
-include_recipe 'ectg-iptables'
+include_recipe 'mwser-iptables'
 
 iptables_rule 'iptables_http_https' do
   # look for this rule in templates/default/http_https.

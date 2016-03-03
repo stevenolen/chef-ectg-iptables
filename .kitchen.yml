@@ -12,4 +12,4 @@ platforms:
 
 suites:
   - name: default
-    run_list: ['ectg-iptables::sshd-world']
+    run_list: ['mwser-iptables::sshd-world']

@@ -1,1 +1,1 @@
-default['ectg-iptables']['elasticsearch']['from_ip'] = '127.0.0.1'
+default['mwser-iptables']['elasticsearch']['from_ip'] = '127.0.0.1'
